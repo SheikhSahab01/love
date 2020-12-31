@@ -1,0 +1,134 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 900px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #cointainer {
+        width: auto;
+        height: 850px;
+        position: relative;
+        background-image: url(images/IMG_9044.JPG);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 0 0px;
+        border-radius: 50px;
+        border-bottom-right-radius: 50px;
+
+    }
+
+    #midText {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        transform: translate(-50% -50%);
+    }
+
+    #midText h1 {
+        font-size: 1.8em;
+        letter-spacing: 2px;
+        color: #f07;
+        padding: 2%;
+        margin-bottom: 30%;
+    }
+
+    #midText p {
+        letter-spacing: 1px;
+        font-size: 25px;
+        color: #f07;
+    }
+
+    #name {
+        color: #f07;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
+    .background {
+        padding: 35px 40px;
+        background-color: #E4F9F5;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main p {
+        font-size: 36px;
+    }
+
+    p {
+        color: #66BFBF;
+        font-family: 'Montserrat', sans-serif;
+
+
+    }
+
+    .sacramento {
+        font-family: 'Sacramento', cursive;
+
+    }
+
+    .first {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firstImg {
+        height: 400px;
+        width: 250px;
+        text-align: center;
+        margin-top: 49px;
+        border-radius: 10%;
+
+    }
+
+    .text {
+        line-height: 2.8;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 49px;
+    }
+
+    .lineHeart {
+        margin-top: 49px;
+    }
+
+    #last {
+        width: 350px !important;
+        border-radius: 5px !important;
+    }
+    marquee{
+        padding: 20px;
+        font-size: 30px;
+        color: #66BFBF;
+        letter-spacing: 10px;
+    }
+    .main2{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    #love{
+        height: 200px;
+    }
+    .lineHeart{
+        margin-top:49px;
+    }
+    .Purposal{
+        
+        font-family: 'Sacramento', cursive;
+        font-size:30px;
+    }
+    .sacramento2{
+        font-size:35px;
+    }
+
+}
